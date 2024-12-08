@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <style>
+        /* contact section*/
+.get-touch
+{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   gap: 2.5rem;
+   padding: 100px 8% 120px;
+   background:#6c7f8c;
+    
+}
+
+h1
+{
+    color:black;
+    font-size: 30px;
+}
+h2
+{
+    color: black;
+    font-size:  35px;
+}
+
+body
+{
+   background-color:#d6dce0;
+}
+
+.content-txt
+{
+    margin-bottom: 10px;
+}
+
+.content-text h2
+{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 0px 1px 1px black;
+}
+
+span
+{
+    color:#d6dce0;
+}
+
+.content-text p
+{
+    font-weight: bold;  
+    
+}
+
+.list
+{
+    margin-top: 16px;
+}
+
+.list li
+{
+    margin-bottom: 12px;
+    list-style: none;
+}
+
+.list li a
+{
+    display: block;
+    color: #d6dce0;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.3s ease;
+}  
+
+.form-info form
+{
+    position: relative;
+}
+
+.form-info form input ,
+form textarea
+{
+    width: 100%;
+    padding: 10px;
+    background: white;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-info textarea
+{
+    resize: none;
+    height: 160px;
+}
+
+.form-info .submit
+{
+    display: inline-block;
+    font-size: 15px;
+    background:#d6dce0;
+    color: black;
+    width: 160px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.form-info.submit:hover
+{
+    width: 175px;
+}
+
+@media (max-width:920px) 
+{
+    .get-touch
+    {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+}
+
+
+    
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+    <nav>
+        <h1>CRYSTAL CREATION</h1>
+    </nav>
+</div>
+    <section class="get-touch" id="get-touch">
+        <div class="Content-txt">
+            <h2>Get in <span>Touch</span></h2>
+            <p>Let's talk about your next home upgrade!</p>
+            <p>Reach out to our dedicated team for Comprehensive support, Detailed product information, Or any questions regarding our orders.</p>
+            <div class="list">
+                <li><a href ="#">077-1234567</a></li>
+                <li><a href="#">info@yourresinbrand.com</a></li>
+                <li><a href="#">36/4 kandy road,kandy</a></li>
+            </div>
+        </div>
+
+        <div class="form-info">
+            <form action="#">
+                <input type="name" placeholder="Name" required>
+                <input type="number" placeholder="Number" required>
+                <input type="email" placeholder="Email" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="Message"></textarea>
+                <input type="submit" value="Send" class="submit" required>
+            </form>
+        </div>
+    </section>
